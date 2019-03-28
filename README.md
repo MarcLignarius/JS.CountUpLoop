@@ -1,6 +1,6 @@
 # _Javascript Calculator_
 
-#### _last updated 03/25/2019_
+#### _last updated 03/28/2019_
 
 #### By _**Marc Davies**_
 
@@ -12,7 +12,7 @@ _ Add
 _ Subtract
 _ Multiply
 _ Divide
-_Both numbers and return an alert with the result of each function._
+_Both numbers and return a message with the result of each function._
 
 ## Setup/Installation Requirements
 
