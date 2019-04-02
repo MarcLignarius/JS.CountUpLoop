@@ -3,10 +3,7 @@ $(function() {
 		event.preventDefault();
 		var number1 = parseInt($("#countTo").val());
 		var number2 = parseInt($("#countBy").val());
-		console.log (number1);
-		console.log (number2);
-
-		if((number1 >= 0 || number2 >= 0) || (number1 >= 0 && number2 >= 0) && (number2 > number1)) {
+		if((number1 === 0 || number2 === 0) || (number1 === 0 && number2 === 0) || (number2 > number1)) {
 				$("#output").text("Please enter numbers greater than zero. Count To must be greater than Count By.");
 			}	else {
 				var total = 0;
