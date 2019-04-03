@@ -1,5 +1,5 @@
 $(function() {
-	$("#countup").submit(function(event) {
+	$("#countUp").submit(function(event) {
 		event.preventDefault();
 		var number1 = parseInt($("#countTo").val());
 		var number2 = parseInt($("#countBy").val());
