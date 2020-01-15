@@ -16,6 +16,9 @@ $(function() {
       //Check for negative numbers
 			if (countTo < 0 || countBy < 0) {
         alert("Positive numbers only please.");
+      //Check for non-whole numbers
+      } else if (countTo % 1 !== 0 || countBy % 1 !== 0) {
+        alert("Let's stick to whole numbers shall we?");
       } else {
         alert("All good");
       }
