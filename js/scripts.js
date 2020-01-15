@@ -13,6 +13,12 @@ $(function() {
 			//If non-empty and numerical, parse user input
 			let countTo = parseFloat(userInput1);
 			let countBy = parseFloat(userInput2);
-		}
+      //Check for negative numbers
+			if (countTo < 0 || countBy < 0) {
+        alert("Positive numbers only please.");
+      } else {
+        alert("All good");
+      }
+    };
 	});
 });
