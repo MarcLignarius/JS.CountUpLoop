@@ -7,11 +7,12 @@ $(function() {
 		if (userInput1 == "" || userInput2 == "") {
 			alert("Both fields are required.");
 			//Check for non-numerical values
-			} else if (isNaN(userInput1) || isNaN(userInput2)) {
-				alert("Numbers only please.");
-			} else {
-				alert('All good');	
-			}
+		} else if (isNaN(userInput1) || isNaN(userInput2)) {
+			alert("Numbers only please.");
+		} else {
+			//If non-empty and numerical, parse user input
+			let countTo = parseFloat(userInput1);
+			let countBy = parseFloat(userInput2);
 		}
-	);
+	});
 });
