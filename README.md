@@ -13,7 +13,7 @@
 
 * _Clone the file from GitHub_
 * _Open the file and double click index.html_
-* _Alternatively launch marclignarius.github.io/JS.CountUpLoop_
+* _Alternatively launch https://marclignarius.github.io/JS.CountUpLoop_
 
 ## Specs
 
@@ -23,7 +23,7 @@
 
 ## Support and contact details
 
-_Please contact me via <a href="https://www.linkedin.com/in/marcdaviesriot/">LinkedIn</a> if you run into any issues or have questions, ideas or concerns._
+_Please contact me via <a href="https://www.linkedin.com/in/marcdaviesriot/">LinkedIn</a> if you have any questions. Your feedback is always welcomed!_
 
 ## Technologies Used
 
