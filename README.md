@@ -1,26 +1,32 @@
-# _For Loop Practice: Count Up By_
+# _Count Up Loop_
 
-#### _last updated 04/02/2019_
+#### _last updated 01/15/2020_
 
 #### By _**Marc Davies**_
 
 ## Description
 
-_User is prompted to enter two numbers_
-_The program will count up to number1 by number2 (ex: count to 50 by 10 => 0, 10, 20, 30, 40, 50)_
+* _User is prompted to enter a number to count up to and a number to count by. The program then displays the count._
+* _The program will also perform the following validations: empty fields, non-numerical values, negative numbers, non-whole numbers and countBy number being higher than countTo number._
 
 ## Setup/Installation Requirements
 
 * _Clone the file from GitHub_
 * _Open the file and double click index.html_
-* _Alternatively launch marclignarius.github.io/countuploop_
+* _Alternatively launch marclignarius.github.io/JS.CountUpLoop_
+
+## Specs
+
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| User enters a number to count to and a number to count by, program displays the count. | Enter a number to count to: 30 / Enter a number to count by: 5 | 0, 5, 10, 15, 20, 25, 30 |
 
 ## Support and contact details
 
-_Please reach out to Marc Davies at marcdaviesriot@gmail.com if you run into any issues or have questions, ideas or concerns._
+_Please contact me via <a href="https://www.linkedin.com/in/marcdaviesriot/">LinkedIn</a> if you run into any issues or have questions, ideas or concerns._
 
 ## Technologies Used
 
-_HTML, Javascript, BootStrap, jQuery, Atom._
+_HTML, Javascript, BootStrap, jQuery_
 
-Copyright (c) 2019 **_Marc Davies_**
+Copyright (c) 2019-2020 **_Marc Davies_**
