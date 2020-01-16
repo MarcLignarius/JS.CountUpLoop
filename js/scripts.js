@@ -26,8 +26,11 @@ $(function() {
         alert("Count to number must be higher than count by number.");
       } else {
         //Count up to countTo number by adding up countBy
-        for (var index = 0; index <= countTo; index += countBy) {
-          var result = $("#output").append(index + ", ");
+        let result = [];
+        for (let index = 0; index <= countTo; index += countBy) {
+          result.push(" " + index);
+          console.log(result);
+          $("#output").text(result);
         }
       }
     }
